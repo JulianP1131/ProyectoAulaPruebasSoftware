@@ -13,7 +13,7 @@
 
   <!-- ===== MENU LATERAL ===== -->
   <aside class="barra-lateral">
-    <div>
+    <header>
       <div class="logo-app">
         <div class="icono-redondo"><i class="fa-solid fa-house-chimney-user"></i></div>
         <div>
@@ -31,9 +31,9 @@
         <a href="reportes.html" class="enlace-menu"><i class="fa-solid fa-chart-simple"></i><span>Reportes y Estadisticas</span></a>
         <a href="alertas.html" class="enlace-menu"><i class="fa-solid fa-bell"></i><span>Centro de Alertas</span><span class="globo-aviso">2</span></a>
       </nav>
-    </div>
+    </header>
 
-    <div class="pie-lateral">
+    <footer class="pie-lateral">
       <div class="tarjeta-usuario">
         <div style="display:flex; align-items:center; gap:10px;">
           <div class="avatar">CM</div>
@@ -45,7 +45,7 @@
         <a href="index.html" title="Cerrar sesion" style="color:var(--gris-400);"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
       </div>
       <p class="marca-agua">House Pay v2.4 · Hogar Conectado</p>
-    </div>
+    </footer>
   </aside>
 
   <!-- ===== CONTENIDO ===== -->
@@ -70,11 +70,11 @@
       </div>
     </header>
 
-    <div class="zona-vistas">
+    <section class="zona-vistas">
 
       <!-- Tres tarjetas resumen -->
       <div class="rejilla-3">
-        <div class="tarjeta">
+        <article class="tarjeta">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
             <span class="etiqueta etiqueta-azul-suave">Presupuesto Disponible</span>
             <i class="fa-solid fa-wallet" style="color:var(--azul-600);"></i>
@@ -85,9 +85,9 @@
             <span class="texto-pequeno">Limite mensual total:</span>
             <span class="texto-negrita">$4.300.000 COP</span>
           </div>
-        </div>
+        </article>
 
-        <div class="tarjeta">
+        <article class="tarjeta">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
             <span class="etiqueta etiqueta-rosa">Total Gastado</span>
             <i class="fa-solid fa-money-bill-transfer" style="color:var(--rosa-600);"></i>
@@ -98,9 +98,9 @@
             <span class="texto-pequeno">Promedio diario:</span>
             <span class="texto-negrita">$101.070 COP / dia</span>
           </div>
-        </div>
+        </article>
 
-        <div class="tarjeta">
+        <article class="tarjeta">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
             <span class="etiqueta etiqueta-ambar">Consumo Global</span>
             <span style="font-size:12px; font-weight:700; color:var(--ambar-600);">71% ejecutado</span>
@@ -112,13 +112,13 @@
             <span class="texto-verde texto-negrita"><i class="fa-solid fa-circle-check"></i> En rango seguro</span>
             <a href="presupuestos.html" style="color:var(--azul-600); font-weight:700;">Ajustar meta →</a>
           </div>
-        </div>
+        </article>
       </div>
 
       <!-- Dos columnas: proximos pagos / categorias -->
       <div class="rejilla-2">
 
-        <div class="tarjeta">
+        <article class="tarjeta">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
             <h4 style="font-size:17px; font-weight:800;"><i class="fa-regular fa-calendar-check" style="color:var(--azul-600); margin-right:8px;"></i>Proximos Pagos</h4>
             <a href="alertas.html" style="font-size:12px; font-weight:700; color:var(--azul-600);">Ver todas las alertas (2)</a>
@@ -165,9 +165,9 @@
               <a href="alertas.html" class="boton boton-secundario boton-pequeno">Pagar ahora</a>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div class="tarjeta">
+        <article class="tarjeta">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
             <h4 style="font-size:17px; font-weight:800;"><i class="fa-solid fa-chart-column" style="color:var(--azul-600); margin-right:8px;"></i>Distribucion por Categoria</h4>
             <a href="reportes.html" style="font-size:12px; font-weight:700; color:var(--azul-600);">Analitica completa →</a>
@@ -217,12 +217,12 @@
             <span class="texto-pequeno">6 categorias configuradas en este ciclo</span>
             <a href="presupuestos.html" style="color:var(--azul-600); font-weight:700;">Gestionar presupuestos →</a>
           </div>
-        </div>
+        </article>
 
       </div>
 
       <!-- Ultimos movimientos -->
-      <div class="tarjeta">
+      <article class="tarjeta">
         <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:20px;">
           <div>
             <h4 style="font-size:17px; font-weight:800;">Ultimos Movimientos del Hogar</h4>
@@ -246,9 +246,9 @@
             <tr><td>Cuota curso de ingles</td><td>Educacion</td><td>07 Oct 2024</td><td>Tarjeta debito ••3410</td><td style="text-align:right;">$147.100</td></tr>
           </tbody>
         </table>
-      </div>
+      </article>
 
-    </div>
+    </section>
   </main>
 </div>
 </body>
